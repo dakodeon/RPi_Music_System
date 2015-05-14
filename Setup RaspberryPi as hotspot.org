@@ -147,7 +147,9 @@ I have tested the next steps with the usb wi-fi dongle DWA-131.
 
 At this point everything should work, but only if your usb wi-fi dongle uses the "nl80211" driver. To check out, use the command:
 
-: iw list
+: iwlist
+
+(Note: on =iwlist= see: http://manpages.ubuntu.com/manpages/karmic/man8/iwlist.8.html)
 
 If the output is =nl80211 not found=, then you need to use the "rtl871xdrv" driver.
 
